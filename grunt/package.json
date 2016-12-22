@@ -1,0 +1,24 @@
+{
+  "name": "json_trnaslation_managment_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vilina/json_trnaslation_managment_tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vilina/json_trnaslation_managment_tool/issues"
+  },
+  "homepage": "https://github.com/Vilina/json_trnaslation_managment_tool#readme"
+}
