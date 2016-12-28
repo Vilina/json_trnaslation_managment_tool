@@ -2,6 +2,43 @@ module.exports = function(grunt){
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+
+        connect: {
+            livereload: {
+                options: {
+                    open: true,
+                    middleware: function(connect){
+                        return [
+                            require('connect-livereload')(), // <--- here
+                            checkForDownload,
+                            mountFolder(connect, '.tmp'),
+                            mountFolder(connect, 'app')
+                        ];
+                    }
+                }
+            }
+        },
+        watch: {
+            options: {
+                livereload: 'true'
+            },
+            livereload: {
+                files: [
+                    '../stylesheets/scss/**/*',
+                    '../js/app.js',
+                    '../*.php'
+                ],
+                tasks: ['sass:materialize','sass:otherSass','copy']
+            },
+            html_files: {
+                files: ['./index.php'],
+                tasks: [] // Only being watched to
+                          // perform live reload,
+                          // no associated tasks
+            }
+        },
+
+
         sass: {
             options: {
                 style : 'compressed'
@@ -37,14 +74,19 @@ module.exports = function(grunt){
                 }]
             }
         }
+
+
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('default', [
         'sass:materialize',
         'sass:otherSass',
-        'copy'
+        'copy',
+        'watch'
     ])
 };
 
