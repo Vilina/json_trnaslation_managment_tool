@@ -63,6 +63,13 @@ module.exports = function(grunt){
             }
 
         },
+        concat: {
+            js: {
+                files: {
+                    '../js/vendor.js': ['node_modules/angular/angular.js']
+                }
+            }
+        },
         copy: {
             main: {
                 files: [{
@@ -81,10 +88,12 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-concat');
 
     grunt.registerTask('default', [
         'sass:materialize',
         'sass:otherSass',
+        'concat',
         'copy',
         'watch'
     ])
