@@ -6,6 +6,7 @@
  * Time: 15:48
  */
 
+
 $handle = fopen($_FILES["original_file"]["tmp_name"], 'r');
 $original_file_tmp_name = $_FILES["original_file"]["tmp_name"];
 $comparable_file_tmp_name = $_FILES["comparable_file"]["tmp_name"];
