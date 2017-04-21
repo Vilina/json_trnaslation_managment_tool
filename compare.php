@@ -44,9 +44,10 @@ $result['comparable_file_array_full'] = $comparable_file_array_full;
 $result['original_file_array'] = $original_file_array;
 $result['comparable_file_array'] = $comparable_file_array;
 echo json_encode($result);
-
+die();
+//
 //            var_dump($array1);
 //            echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
 //            var_dump($array2);
-    //    var_dump($array1);
-    //    var_dump($array2);
+//        var_dump($array1);
+//        var_dump($array2);

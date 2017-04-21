@@ -66,8 +66,15 @@ module.exports = function(grunt){
         concat: {
             js: {
                 files: {
-                    '../js/vendor.js': ['node_modules/angular/angular.js']
+                    '../js/vendor.js': ['node_modules/angular/angular.js',
+                                        'node_modules/jsoneditor/dist/jsoneditor.min.js']
                 }
+            },
+            css:{
+                src : [
+                    'node_modules/jsoneditor/dist/jsoneditor.min.css'
+                ],
+                dest: '../stylesheets/css/vendor.css'
             }
         },
         copy: {

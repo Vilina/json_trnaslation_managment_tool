@@ -518,8 +518,9 @@
     "termList":"DÖNEM LİSTESİ",
     "rulesTitle":"Kurallar Başlığı",
     "rulesDetails":"KURAL LİSTESİ",
-    "rulesList":"KURAL LİSTESİ",
-    "tutorial":"Öğretici",
+    "chooseTeam": "choose team",
+    "rulesList": "KURAL LİSTESİ",
+    "tutorial": "Öğretici",
     "searchForTerm":"Terim aramak",
     "All Events":"Tüm Etkinlikler",
     "point1":" 1 puan",
@@ -531,5 +532,14 @@
     "glossary": "Sözlük",
     "AreYouSureYouWantToProceed": "Yarışmanızı iptal ederseniz, oluşturulan herhangi bir sıralama kaybolacak ve yarışma geri yüklenemez. Devam etmek istediğinden emin misin",
     "yes": "Evet",
-    "no": "yok hayır"
+    "no": "yok hayır",
+    "regularSeason": "regular season",
+    "util": "util",
+    "contestDuration": "contest duration",
+    "byTeam": "by team",
+    "priceRange": "price range",
+    "backToPitch": "back to pitch",
+    "seeMore": "see more",
+    "personalInfo": "personal info",
+    "noFixtures": "no fixtures"
 }

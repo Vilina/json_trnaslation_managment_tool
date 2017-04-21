@@ -531,5 +531,15 @@
     "negative":"negative",
     "AreYouSureYouWantToProceed": "Մրցաշարը չեղյալ համարելու դեպքում կկորցնեք բոլոր ստեղծված թիմերը և այլևս հնարավոր չի լինի վերականգնել։ Վստա՞հ եք, որ ցանկանում եք չեղյալ համարել մրցաշարը",
     "yes": "Այո",
-    "no": "Ոչ"
+    "no": "Ոչ",
+    "regularSeason": "regular season",
+    "util": "util",
+    "contestDuration": "contest duration",
+    "byTeam": "by team",
+    "priceRange": "price range",
+    "chooseTeam": "choose team",
+    "backToPitch": "back to pitch",
+    "seeMore": "see more",
+    "personalInfo": "personal info",
+    "noFixtures": "no fixtures"
 }

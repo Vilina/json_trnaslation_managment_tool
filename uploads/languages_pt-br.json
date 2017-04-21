@@ -531,5 +531,15 @@
   "negative": "negativo",
   "AreYouSureYouWantToProceed": "Ao cancelar seu certame, qualquer formação criada será perdida e o certame não poderá ser restaurado. Você tem certeza de querer continuar? ",
   "yes": "Sim",
-  "no": "Nâo"
+  "no": "Nâo",
+  "regularSeason": "regular season",
+  "util": "util",
+  "contestDuration": "contest duration",
+  "byTeam": "by team",
+  "priceRange": "price range",
+  "chooseTeam": "choose team",
+  "backToPitch": "back to pitch",
+  "seeMore": "see more",
+  "personalInfo": "personal info",
+  "noFixtures": "no fixtures"
 }
